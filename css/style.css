@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'gothambook';
+    src: url('../fonts/gotham-book-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'gothambook';
+    color: #4b4b4b;
+    
+}
+body a{
+    color: #1b6e4e;
+    font-weight: bold;
+}
+body a:hover{
+    text-decoration: none;
+}
 header{
     color: rgb(182, 181, 181);
     text-align: center;
@@ -26,13 +46,13 @@ footer{
 }
 
 #main-container{
+    font-family: 'gothambook';
     width: 1080px;
     margin: 0 auto;
     overflow: hidden;
 }
 
 /* Left */
-
 #left-container{
     width: 200px;
     float: left;
@@ -66,12 +86,13 @@ footer{
     color: #000;
     margin: 2px 0 0 4px;
     padding: 0;
-    font-weight: normal;
+    font-weight: bolder;
+    
 }
 
 #left-container #left-content #left-content-text h2{
     font-size: 14px;
-    color: #000;
+    color: #1b6e4e;
     margin: 0;
     padding: 5px 0;
     font-weight: normal;
@@ -88,6 +109,10 @@ footer{
     width: 595px;
     float: left;
     margin: 20px 20px 0 20px;
+}
+
+#center-container p{
+    line-height: 22px;
 }
 
 #center-container #top-center-content{
