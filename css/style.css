@@ -97,6 +97,30 @@ footer{
     margin-bottom: 5px;
 }
 
+.social-midias-content{
+    float: left;
+    width: 100%;
+}
+.social-midias-content ul{
+    float: left;
+    margin: 5px 0 0 -40px;
+}
+.social-midias-content ul li{
+    display: inline;
+    margin:0 1px;
+}
+.social-midias-content ul li img{
+    width: 22px;
+}
+
+.social-midias-content ul li a{
+    text-decoration: none;
+    opacity: 0.8;
+}
+.social-midias-content ul li a:hover{
+    opacity: 1;
+}
+
 #main-container{
     width: 1100px;
     margin: 0 auto;
