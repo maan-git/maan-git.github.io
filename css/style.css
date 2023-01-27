@@ -3,11 +3,32 @@ header{
     text-align: center;
     height: 30px;
     font-size: 15px;
-    border-bottom: 1px solid #9A9999;
+    border-bottom: 1px solid #cdcccc;
 }
+footer{
+    color: rgb(182, 181, 181);
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+    border-top: 1px solid #cdcccc;
+    width: 100%;
+}
+.img-content{
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.img-content img{
+    float: left;
+    width: 25%;
+    margin: 2px 5px 0 0;
+}
+
 #main-container{
     width: 1080px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* Left */
@@ -16,7 +37,7 @@ header{
     width: 200px;
     float: left;
     height: 650px;
-    border-right: 1px solid #9A9999;
+    border-right: 1px solid #cdcccc;
     padding: 60px 20px 30px 0;
     margin-top: -40px;
 }
@@ -32,7 +53,7 @@ header{
     margin-bottom: 5px;
 }
 #left-container #left-content #left-content-img img{
-    border: 1px solid #9A9999;
+    border: 1px solid #cdcccc;
 }
 
 #left-container #left-content #left-content-text{
@@ -41,15 +62,15 @@ header{
 }
 
 #left-container #left-content #left-content-text h1{
-    font-size: 25px;
+    font-size: 20px;
     color: #000;
-    margin: 0;
+    margin: 2px 0 0 4px;
     padding: 0;
     font-weight: normal;
 }
 
 #left-container #left-content #left-content-text h2{
-    font-size: 20px;
+    font-size: 14px;
     color: #000;
     margin: 0;
     padding: 5px 0;
@@ -91,7 +112,7 @@ header{
     width: 200px;
     float: right;
     height: 650px;
-    border-left: 1px solid #9A9999;
+    border-left: 1px solid #cdcccc;
     padding: 60px 0 30px 20px;
     margin-top: -40px;
 }
