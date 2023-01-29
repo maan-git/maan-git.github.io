@@ -192,11 +192,15 @@ footer{
 #center-container p{
     line-height: 22px;
 }
+#center-container h4{
+    margin: 25px 0 0 0;
+    font-weight: bolder;
+    float: left;
+}
 
 #center-container #top-center-content{
     float: left;
     width: 100%;
-    margin-bottom: 30px;
 }
 
 #center-container #left-center-content{
